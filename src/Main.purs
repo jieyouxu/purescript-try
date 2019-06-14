@@ -4,6 +4,8 @@ import Prelude
 import Effect (Effect)
 import Effect.Console (log)
 
+import Euler (answer)
+
 main :: Effect Unit
 main = do
-    log "Hello sailor!"
+    log ("The answer is " <> show answer)
